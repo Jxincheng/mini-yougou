@@ -1,0 +1,102 @@
+/* pages/category/index.wxss */
+page {
+    height: 100%;
+}
+.yg_category {
+    /* overflow: hidden;
+    font-size: 32rpx; */
+    height: 100%;
+}
+.yg_category .cate_content {
+    height: calc(100vh - 90rpx);
+    display: flex;
+}
+/* 左侧 */
+.yg_category .cate_content .cate_left {
+    flex: 2;
+    text-align: center;
+}
+.yg_category .cate_content .cate_left .left_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80rpx;
+    border-left: 5rpx solid #fff;
+    font-size: 30rpx;
+}
+.yg_category .cate_content .cate_left .left_content.active {
+    color: var(--themeColor);
+    border-left-color: var(--themeColor);
+}
+/* 右侧 */
+.yg_category .cate_content .cate_right {
+    flex: 5;
+    
+}
+.yg_category .cate_content .cate_right .right_group {
+
+}
+.yg_category .cate_content .cate_right .right_group .goods_title {
+    height: 80rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yg_category .cate_content .cate_right .right_group .goods_title .delimiter {
+    color: #ccc;
+    padding: 0 10rpx;
+}
+.yg_category .cate_content .cate_right .right_group .goods_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.yg_category .cate_content .cate_right .right_group .goods_content .item_content {
+    width: 33.33%;
+    text-align: center;
+}
+.yg_category .cate_content .cate_right .right_group .goods_content .item_content image {
+    width: 50%;
+}
+
+/* .category_left {
+    float: left;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    overflow: scroll;
+}
+.category_left .left_content {
+    margin: 10rpx 0;
+    border-left: 5rpx solid #fff;
+    height: 60rpx;
+    line-height: 60rpx;
+}
+.category_left .left_content.active {
+    color: var(--themeColor);
+    border-left-color: var(--themeColor);
+}
+/* 分类右侧内容 */
+/* .category_right {
+    float: right;
+    width: 75%;
+}
+.category_right .right_group .group_title {
+    width: 100%;
+    text-align: center;
+}
+.category_right .right_group .group_content {
+    overflow: hidden;
+}
+.category_right .right_group .group_content .item_content {
+    float: left;
+    width: calc(75vw / 3);
+    padding: 20rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.category_right .right_group .group_content .item_content image {
+    width: 75%;
+    height: calc(75vw * 0.6 / 3);
+} */
